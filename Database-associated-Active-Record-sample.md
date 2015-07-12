@@ -4,7 +4,7 @@
 
 为了使用关系型 AR，我们建议在需要关联的表中定义主键-外键约束。这些约束可以帮助保证相关数据的一致性和完整性。
 
-本例通过修改 [Yii Framework 开发教程(25) 数据库-Query Builder 示例](Database-Query-Builder-example.md)来介绍多个有关系的表如何使用 Active Record。
+本例通过修改 [Yii Framework 开发教程(25) 数据库-Query Builder 示例](database-query-builder-example.md)来介绍多个有关系的表如何使用 Active Record。
 
 在我们使用 AR 执行关联查询之前，我们需要让 AR 知道一个 AR 类是怎样关联到另一个的。
 

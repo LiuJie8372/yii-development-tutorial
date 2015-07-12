@@ -1,6 +1,6 @@
 # Yii Framework 開發教程(48) 多國語言示例
 
-本例通過 [Yii Framework 開發教程(11) UI 組件 ActiveForm 示例](UI-components-ActiveForm-example.md)添加中文支持簡要說明一下多國語言支持。詳細文檔可可以參考 [Yii 文檔](http://www.yiiframework.com/doc/guide/1.1/zh_cn/topics.i18n)。
+本例通過 [Yii Framework 開發教程(11) UI 組件 ActiveForm 示例](ui-components-activeform-example.md)添加中文支持簡要說明一下多國語言支持。詳細文檔可可以參考 [Yii 文檔](http://www.yiiframework.com/doc/guide/1.1/zh_cn/topics.i18n)。
 
 信息翻譯是通過調用 [Yii::t()](http://www.yiiframework.com/doc/api/1.1/YiiBase#t) 實現的。此方法會將信息從 [源語言](http://www.yiiframework.com/doc/api/1.1/CApplication#sourceLanguage) 翻譯為 [目標語言](http://www.yiiframework.com/doc/api/1.1/CApplication#language)。
 
