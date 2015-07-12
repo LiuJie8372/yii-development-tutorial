@@ -2,7 +2,7 @@
 
 在开发应用的过程中，调试也是非常重要的一个环节，除了 IDE 支持的即时调试（如 VS.PHP 或 IDE 支持的调试功能），给 Web 应用添加适当的调试信息也是非常有用的一个方法，开发过 Java 或.Net 应用的对 log4XX 都不陌生，Yii Framework 中也提供了类似的 Log 功能， [Yii::log](http://www.yiiframework.com/doc/api/1.1/Yii#log)，它是作为 CWebApplication 一个内置的组件出现的。可以通过配置文件来配置（Yii 中配置通常为  protected/config/main.php）。
 
-上篇文章 [Yii Framework 开发简明教程(2) Yii Web应用基础](http://www.imobilebbs.com/wordpress/archives/3865)简述了应用组件。
+上篇文章 [Yii Framework 开发简明教程(2) Yii Web应用基础](yii-web-application-base.md)简述了应用组件。
 
 除 Log 组件外，Yii 预定义了一系列核心应用组件，提供常见 Web 应用中所用的功能。例如， [request](http://www.yiiframework.com/doc/api/1.1/CWebApplication#request) 组件用于解析用户请求并提供例如 URL，cookie 等信息。 通过配置这些核心组件的属性，我们可以在几乎所有的方面修改 Yii 的默认行为。
 
