@@ -10,7 +10,7 @@ Yii Framework 提供了类 CCaptcha 和 CCaptchaAction 用于支持验证码，�
 
 CCaptcha 也提供方法 CCaptcha::checkRequirements()　来检测 GD 库是否安装。
 
-本例通过修改 [Yii Framework 开发教程(16) UI 组件 StarRating示例](http://www.imobilebbs.com/wordpress/archives/3985)　为其添加 Captcha 功能，只有输入的验证码正确时，用户评分才有效，避免机器自动评分。
+本例通过修改 [Yii Framework 开发教程(16) UI 组件 StarRating示例](UI-components-StarRating-example.md)　为其添加 Captcha 功能，只有输入的验证码正确时，用户评分才有效，避免机器自动评分。
 
 首先是修改 DataModel，添加一个属性 verifyCode 用来存放用户输入的验证码，并给其添加 [CCaptchaValidator](http://www.yiiframework.com/doc/api/1.1/CCaptchaValidator) 验证。
 

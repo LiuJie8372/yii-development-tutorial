@@ -55,7 +55,7 @@
 
 小组件可以像一个控制器一样拥有它自己的视图.默认情况下,小物件的视图文件位于包含了小组件类文件目录的 views 子目录之下.这些视图可以通过调用 [CWidget::render()](http://www.yiiframework.com/doc/api/1.1/CWidget#render) 渲染,这一点和控制器很相似.唯一不同的是,小组件的视图没有布局文件支持。另外，小组件视图中的$this指向小物件实例而不是控制器实例。
 
-在上一篇文章 [Yii Framework 开发简明教程(8)使用 FormModel](http://www.imobilebbs.com/wordpress/archives/3911) 说通过 CController 来处理用户提交事件，和 Windows 桌面应用或 ASP.Net 做个类比， Yii 中视图 View (HTML Form) 类似于 WinForm 或是 Asp.Net 的 Page。 控制类 Controller 类似 Windows 桌面应用或 Asp.Net 的事件处理（Code-Behind)类。 严格上来说，把 Yii 中视图 View (HTML Form)比作 Windows 桌面中的 WinFrom 或是 Asp.Net 的 Page 并不十分恰当，实际上 Yii 中视图的整个 HTML （或是 body）对等于 WinForm 或是 Page。 HTML Form 也只是 CWidget 的一个子类，对应到 [CActiveForm](http://www.yiiframework.com/doc/api/1.1/CActiveForm) UI 组件，此外，Yii 内置了下面 CWidget 类型：
+在上一篇文章 [Yii Framework 开发简明教程(8)使用 FormModel](Use-FormModel.md) 说通过 CController 来处理用户提交事件，和 Windows 桌面应用或 ASP.Net 做个类比， Yii 中视图 View (HTML Form) 类似于 WinForm 或是 Asp.Net 的 Page。 控制类 Controller 类似 Windows 桌面应用或 Asp.Net 的事件处理（Code-Behind)类。 严格上来说，把 Yii 中视图 View (HTML Form)比作 Windows 桌面中的 WinFrom 或是 Asp.Net 的 Page 并不十分恰当，实际上 Yii 中视图的整个 HTML （或是 body）对等于 WinForm 或是 Page。 HTML Form 也只是 CWidget 的一个子类，对应到 [CActiveForm](http://www.yiiframework.com/doc/api/1.1/CActiveForm) UI 组件，此外，Yii 内置了下面 CWidget 类型：
 
 ![picture9.1](images/9.1.jpg)
 

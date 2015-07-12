@@ -8,7 +8,7 @@
 
 使用 Java 或是.Net 写数据库应用，很多人都用过 ibernate（或 NHibernate）可以大大简化数据库编程，而以对象的方式来读写数据库（ORM），Yii 提供的 Active Record (AR) 也是一个流行的 对象-关系映射 (ORM) 技术。每个 AR 类代表一个数据表（或视图），数据表（或视图）的列在 AR 类中体现为类的属性，一个 AR 实例则表示表中的一行。 常见的 CRUD 操作作为 AR 的方法实现。因此，我们可以以一种更加面向对象的方式访问数据。
 
-这里修改 [Yii Framework 开发教程(24) 数据库-DAO 示例](http://www.imobilebbs.com/wordpress/archives/4036) ，看看使用 Active Record 如何读取 Employee 表。
+这里修改 [Yii Framework 开发教程(24) 数据库-DAO 示例](the-DAO-database-examples.md) ，看看使用 Active Record 如何读取 Employee 表。
 
 要访问一个数据表，我们首先需要通过集成 [CActiveRecord](http://www.yiiframework.com/doc/api/1.1/CActiveRecord) 定义一个 AR 类。 每个 AR 类代表一个单独的数据表，一个 AR 实例则代表那个表中的一行。
 

@@ -1,6 +1,6 @@
 # Yii Framework 开发教程(5) URL 管理
 
-在上一篇 [Yii Framework开发简明教程(4) Hangman](http://www.imobilebbs.com/wordpress/archives/3886) 猜单词游戏实例略去了几个方面的问题，一是配置文件 main.php 的 URLManager，二是 Controller 的基类 CComponent ，三是定义 View 使用的 CHtml 帮助类。本篇战开介绍 URLManager，URL 管理。
+在上一篇 [Yii Framework开发简明教程(4) Hangman](guess-word-game.md) 猜单词游戏实例略去了几个方面的问题，一是配置文件 main.php 的 URLManager，二是 Controller 的基类 CComponent ，三是定义 View 使用的 CHtml 帮助类。本篇战开介绍 URLManager，URL 管理。
 
 ```
 

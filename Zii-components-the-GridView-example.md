@@ -2,7 +2,7 @@
 
 CGridView 以表格的形式顯示數據，CGridView 也支持分頁和排序，CGridView 最基本的用法和 ListView 類型，也是通過設置 [data provider](http://www.yiiframework.com/doc/api/1.1/IDataProvider)，通常是 [CActiveDataProvider](http://www.yiiframework.com/doc/api/1.1/CActiveDataProvider)。
 
-修改上個例子 [Yii Framework 開發教程(31) Zii 組件-DetailView 示例](http://www.imobilebbs.com/wordpress/archives/4074)，把 ListView 該為 GridView：
+修改上個例子 [Yii Framework 開發教程(31) Zii 組件-DetailView 示例](Zii-components-the-DetailView-example.md)，把 ListView 該為 GridView：
 
 ```
 

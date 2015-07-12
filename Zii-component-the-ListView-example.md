@@ -4,7 +4,7 @@ CListView 可以用来显示列表，CListView 支持使用自定义的 View 模
 
 CListView 支持分页和排序，分页和排序支持使用 AJAX 实现从而可以提高页面的响应性能。CListView 的使用需要通过 [DataProvider](http://www.imobilebbs.com/wordpress/archives/4058)，通常是使用 CActiveDataProvider。
 
-本例修改 [Yii Framework 开发教程(26) 数据库-Active Record 示例](http://www.imobilebbs.com/wordpress/archives/4047)，不过为了显示分页，我们使用 Customer 数据库表，每页显示 10 条记录。
+本例修改 [Yii Framework 开发教程(26) 数据库-Active Record 示例](Database-Active-Record-sample.md)，不过为了显示分页，我们使用 Customer 数据库表，每页显示 10 条记录。
 
 修改缺省的视图 protected/views/site/index.php,使用 ListView 组件。
 

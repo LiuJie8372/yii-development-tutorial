@@ -10,7 +10,7 @@ CDetailView 通过配置 [attributes](http://www.yiiframework.com/doc/api/1.1/CD
 - “Label” 可以选，属性的标签名，如果没有配置，则使用属性名称做为标签名称.
 - “Type” 属性的类型，通过类型来决定显示的格式 [formatter](http://www.yiiframework.com/doc/api/1.1/CDetailView#formatter).可以使用的类型有 raw, text, ntext, html, date, time, datetime, boolean, number, email, image, url. 等，缺省使用 text.
 
-本例修改上例 [Yii Framework 开发教程(30) Zii 组件-ListView 示例](http://www.imobilebbs.com/wordpress/archives/4069) ，修改显示列表的列表项模版_view.php ，使客户名称由普通文字变为 Link。
+本例修改上例 [Yii Framework 开发教程(30) Zii 组件-ListView 示例](Zii-component-the-ListView-example.md) ，修改显示列表的列表项模版_view.php ，使客户名称由普通文字变为 Link。
 
 ```
 

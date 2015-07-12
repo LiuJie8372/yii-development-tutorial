@@ -15,7 +15,7 @@ Theming 是一個在 Web 應用程序里定製網頁外觀的系統方式。通�
 
 對於在 [module](http://www.yiiframework.com/doc/guide/1.1/zh_cn/basics.module) 裡面的控制器 view 文件，相應主題 view 文件將被放在 views 目錄下。例如，如果上述的 PostController 是在一個命名為 forum 的模塊里 ，我們應該保存 create view 文件為 WebRoot/themes/classic/views/forum/post/create.php 。如果 forum 模塊嵌套在另一個名為 support 模塊里 ，那麼 view 文件應為 WebRoot/themes/classic/views/support/forum/post/create.php 。
 
-本例通過修改 [Yii Framework 開發教程(11) UI 組件 ActiveForm 示](http://www.imobilebbs.com/wordpress/archives/3955)，為它添加兩個主提，為簡單起見，兩個主題名字分別為 cyan,grey, 以其背景顏色命名。
+本例通過修改 [Yii Framework 開發教程(11) UI 組件 ActiveForm 示](UI-components-ActiveForm-example.md)，為它添加兩個主提，為簡單起見，兩個主題名字分別為 cyan,grey, 以其背景顏色命名。
 
 首先在應用目錄結構下創建 themes 目錄，然後創建 cyan,grey 兩個子目錄，然後將預設的 protected/views 分別複製到兩個子目錄下，作為 Theme 的初始版本。
 

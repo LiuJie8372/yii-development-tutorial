@@ -1,6 +1,6 @@
 # Yii Framework 开发教程(41) Zii 组件-Tabs 示例
 
-CJuiTabs 显示分页 UI 组件，和 [Yii Framework 开发教程(17) UI 组件 TabView 示例](http://www.imobilebbs.com/wordpress/archives/3990)功能类似，它封装了 [JUI tabs](http://jqueryui.com/demos/tabs/) 插件。
+CJuiTabs 显示分页 UI 组件，和 [Yii Framework 开发教程(17) UI 组件 TabView 示例](UI-components-TabView-example.md)功能类似，它封装了 [JUI tabs](http://jqueryui.com/demos/tabs/) 插件。
 
 前基本用法如下：
 

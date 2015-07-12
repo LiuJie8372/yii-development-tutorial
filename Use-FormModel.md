@@ -13,7 +13,7 @@
 7. [创建动作Action方法](http://www.imobilebbs.com/wordpress/archives/3911#7-Action)
 8. [构建视图](http://www.imobilebbs.com/wordpress/archives/3911#8)
 
-通过前面的学习，我们了解了 Yii Web 应用的基本组成部分，也会编写像 Hangman 猜单词游戏这样简单的应用。在第一个例子 [Yii Framework 开发简明教程(1) 第一个应用Hello World](http://www.imobilebbs.com/wordpress/archives/3854) 我们介绍了 Yii Web 应用采用 MVC 模型，也说明了本教程目的是通过不同的视角（主要是通过开发 Windows 应用 C++，C#程序员的角度）帮助 Windows 桌面应用或 ASP.Net 程序员较快的掌握 PHP Yii Framework 应用程序框架。
+通过前面的学习，我们了解了 Yii Web 应用的基本组成部分，也会编写像 Hangman 猜单词游戏这样简单的应用。在第一个例子 [Yii Framework 开发简明教程(1) 第一个应用Hello World](first-application-hello-world.md) 我们介绍了 Yii Web 应用采用 MVC 模型，也说明了本教程目的是通过不同的视角（主要是通过开发 Windows 应用 C++，C#程序员的角度）帮助 Windows 桌面应用或 ASP.Net 程序员较快的掌握 PHP Yii Framework 应用程序框架。
 
 前面我们介绍了通过 CHtml 创建 View（页面视图 Form），通过 CController 来处理用户提交事件，和 Windows  桌面应用或 ASP.Net 做个类比， Yii 中视图 View (HTML Form) 类似于 WinForm 或是 Asp.Net 的 Page。 控制类 Controller 类似 Windows 桌面应用或 Asp.Net 的事件处理（Code-Behind)类。不同的是 Asp.Net 和 Windows 桌面应用可以为 UI 中各个 UI 组件，比如文本框，按钮定义 Id，然后为不同的 UI 组件添加事件处理。PHP 应用或是 Yii 应用没有对应的机制可以为定义在 HTML Form 中的 UI 组件定义一个 Id，并为 UI 组件定义事件处理。 然而 Yii 框架提供了  CFormModel 可以支持类似的功能，简单的说，通过 CFormModel，可以为 HTML Form 中的 UI 小组件定义变量，并且可以在其控制类 Controller 中访问这些变量。每个 Yii View（Form)一般都提供一个“提交”按钮（Submit Button），用户点击这个“提交按钮”触发 CController对象对应的 actionXXX 方法，在 actionXXX 方法中可以通过 CFormModel 来访问 HTML Form 的 UI 组件的值。
 
